@@ -1,0 +1,53 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(14, 3, 108);
+  font-family: "Anton", sans-serif;
+  font-family: "Charm", cursive;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  align-items: center;
+  list-style-type: none;
+}
+img {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(14, 3, 108);
+  font-family: "Anton", sans-serif;
+  font-family: "Charm", cursive;
+}
+.button1 {
+  position: absolute;
+  color: aliceblue;
+  left: 10%;
+  background-color: rgb(14, 3, 108);
+  border-radius: 2cm;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: blue;
+}
+

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.headings {
+  background-color: rgba(14, 9, 58, 0.8);
+  width: 100%;
+  padding: 1%;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:azure;
+  font-family: "Anton", sans-serif;
+  font-family: "Charm", cursive;
+}
+
+.index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  align-items: center;
+  list-style-type: none;
+}
+.secondheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  color: azure;
+}
+
+body {
+  background-image: url(../src/images/images/Beachresort.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: flex-end;
+  color: azure;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 85px;
+  background-color: rgba(14, 9, 58, 0.8);
+}
+.active {
+  background-color: azure;
+  color: black;
+}
+
+.hovernext:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: aliceblue;
+  color: black;
+  border: 3px;
+  border-style: solid;
+  border-color: aliceblue;
+  padding: 16px 15px;
+  font-size: 75%;
+  transition: 0.5s;
+  width: 100px;
+  height: 50px;
+}
+.button:hover {
+  background-color: rgba(14, 9, 58, 0.8);
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  background-color: rgba(14, 9, 58, 0.8);
+  padding: 2px;
+  text-align: center;
+  width: 100%;
+  color: azure;
+}

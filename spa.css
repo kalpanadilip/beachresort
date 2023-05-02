@@ -1,0 +1,36 @@
+body {
+  background-color: whitesmoke;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(14, 3, 108);
+  font-family: "Anton", sans-serif;
+  font-family: "Charm", cursive;
+}
+.img1 {
+  display: inline;
+
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.p1 {
+  display: inline;
+
+  float: right;
+  width: 57em;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+.imgages {
+  display: inline;
+  border: 1px solid black;
+  border-radius: 8px;
+}
